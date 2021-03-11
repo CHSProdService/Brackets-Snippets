@@ -8500,3 +8500,1146 @@
         </div> 
         ${4}
 
+- trigger: redirect-html
+  scope: html
+  mTime: 1599678415603
+  description: HTML code to redirect from one page to another
+  text: |
+        <!DOCTYPE html>\r
+        <html>\r
+           <head>\r
+              <meta http-equiv = "refresh" content = "0; url = ${1:URL}" />\r
+           </head>\r
+           <body>\r
+           </body>\r
+        </html>
+
+- trigger: archived-gcweb-eng
+  scope: html
+  description: The Canada.ca Archived Banner in English
+  mTime: 1610130020480
+  text: |
+        <section class="gc-archv wb-inview modal-content show-none bar-demo" data-inview="top-bar">\r
+        <div class="container">\r
+        <h2>We have archived this page and will not be updating it.</h2>\r
+        <p>You can use it for research or reference.</p>\r
+        </div>\r
+        </section>\r
+        <section id="top-bar" class="gc-archv wb-overlay modal-content overlay-def wb-bar-t">\r
+        <div class="container">\r
+        <h2>We have archived this page and will not be updating it.</h2>\r
+        <p>You can use it for research or reference.</p>\r
+        </div>\r
+        </section>
+
+- trigger: archived-gcweb-fra
+  description: The Canada.ca Archived Banner in French
+  scope: html
+  mTime: 1610130043070
+  text: |
+        <section class="gc-archv wb-inview modal-content show-none bar-demo" data-inview="top-bar">\r
+        <div class="container">\r
+        <h2>Nous avons archivé cette page et elle ne sera plus mise à jour.</h2>\r
+        <p>Vous pouvez la consulter à des fins de recherche ou à titre de référence.</p>\r
+        </div>\r
+        </section>\r
+        <section id="top-bar" class="gc-archv wb-overlay modal-content overlay-def wb-bar-t">\r
+        <div class="container">\r
+        <h2>Nous avons archivé cette page et elle ne sera plus mise à jour.</h2>\r
+        <p>Vous pouvez la consulter à des fins de recherche ou à titre de référence.</p>\r
+        </div>\r
+        </section>
+
+- trigger: campaign-canada-eng
+  description: A campaign page using the GCweb theme
+  scope: html
+  mTime: 1613572237602
+  text: |
+        <!DOCTYPE html>\r
+        <html class="no-js" lang="en" dir="ltr">\r
+        \r
+        <head>\r
+            <meta charset="utf-8">\r
+            <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)\r
+        \t\twet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->\r
+            <title>campaignPageTitle</title>\r
+            <meta content="width=device-width,initial-scale=1" name="viewport">\r
+            <meta name="description" content="campaignPageTitle">\r
+            <meta name="dcterms.title" content="campaignPageTitle" />\r
+            <meta name="dcterms.creator" content="Government of Canada, Fisheries and Oceans Canada" />\r
+            <meta name="dcterms.issued" title="W3CDTF" content="YYYY-MM-DD" />\r
+            <meta name="dcterms.modified" title="W3CDTF" content="YYYY-MM-DD" />\r
+            <meta name="dcterms.subject" title="scheme" content="campaignPageTitle" />\r
+            <meta name="dcterms.language" title="ISO639-2" content="eng" />\r
+            <!--#include virtual="/includes/css-header8.html" -->\r
+            <link rel="stylesheet" type="text/css" href="/campaign-campagne/slick-1.8.0/slick/slick.css">\r
+            <link rel="stylesheet" type="text/css" href="/campaign-campagne/slick-1.8.0/slick/slick-theme.css">\r
+            <script src="/includes/scripts/dfo-mpo-ga.js"></script>\r
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>\r
+        </head>\r
+        \r
+        <body vocab="https://schema.org/" typeof="WebPage">\r
+            <nav>\r
+                <ul id="wb-tphp">\r
+                    <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>\r
+                    <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Skip to "About government"</a> </li>\r
+                </ul>\r
+            </nav>\r
+            <header>\r
+                <!--#include virtual="/includes/header8-en.html" -->\r
+                <nav id="wb-bc" property="breadcrumb">\r
+                    <h2>You are here:</h2>\r
+                    <div class="container">\r
+                        <ol class="breadcrumb">\r
+                            <li><a href="https://www.canada.ca/en.html">Canada.ca</a></li>\r
+                            <li><a href="/index-eng.htm">Fisheries and Oceans Canada</a></li>\r
+                        </ol>\r
+                    </div>\r
+                </nav>\r
+            </header>\r
+            <main property="mainContentOfPage" class="container" typeof="WebPageElement">\r
+                <h1 property="name" id="wb-cont">campaignPageTitle</h1>\r
+                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/promos/1170x347-1.png" class="img-responsive cmpgn-img" alt="">\r
+                <br>\r
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>\r
+                <hr>\r
+                <div id="panel0" class="row">\r
+                    <section class="col-md-6">\r
+                        <figure class="wb-mltmd">\r
+                            <video title="videoTitle">\r
+                                <source type="video/youtube" src="https://youtu.be/xxxxxxxxxx" />\r
+                            </video>\r
+                        </figure>\r
+                        <details>\r
+                            <summary>Transcript</summary>\r
+                            <p>Praesent luctus nisi non elit scelerisque ullamcorper. Aliquam malesuada ac leo eget efficitur. Aliquam sed euismod sapien. Vestibulum ullamcorper nisi vitae metus ultrices, at hendrerit sapien blandit. Vestibulum suscipit semper leo, id aliquam diam gravida at. Nullam sed dolor nec nisi ultrices vulputate ac eget erat. Maecenas nec metus fermentum, sodales velit ut, luctus turpis. Nunc sodales et leo eget ultricies. Morbi blandit urna quis leo interdum consequat. Praesent leo turpis, hendrerit sit amet urna eget, aliquam accumsan enim. Proin tincidunt, diam a euismod porttitor, turpis sapien imperdiet felis, eget pellentesque risus turpis sed ipsum. Cras eget porta augue. Aliquam quam urna, ultricies at interdum ac, cursus vitae augue.</p>\r
+                        </details>\r
+                    </section>\r
+                    <section class="col-md-6">\r
+                        <h2 class="mrgn-tp-sm">Nunc id nisi convallis, maximus ex at, vulputate risus</h2>\r
+                        <p>Suspendisse maximus, tellus in fringilla consectetur, risus turpis ultrices erat, sed mattis risus lorem ut metus. Nam a aliquam eros. In libero diam, tristique nec odio eu, consequat finibus dolor. In et varius arcu. Duis lacinia, neque in egestas bibendum, quam neque facilisis sem, at tincidunt odio nisl eleifend odio. Fusce at lectus eros. Ut at quam vitae neque sodales tempus vel sed nunc. Integer dictum tincidunt semper.</p>\r
+                    </section>\r
+                </div>\r
+                <hr>\r
+                <div class="row col-md-12 wb-eqht">\r
+                    <section class="regular slider">\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile1</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile1">\r
+                            </a>\r
+                            <p>Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile2</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile2">\r
+                            </a>\r
+                            <p>Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile3</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile3">\r
+                            </a>\r
+                            <p>Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile4</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile4">\r
+                            </a>\r
+                            <p>Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile5</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile5">\r
+                            </a>\r
+                            <p>Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile6</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile6">\r
+                            </a>\r
+                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras ullamcorper fermentum ullamcorper.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile7</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile7">\r
+                            </a>\r
+                            <p>Donec ante erat, eleifend egestas dapibus dignissim, finibus pellentesque elit.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile8</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile8">\r
+                            </a>\r
+                            <p>Vivamus in est maximus, sodales justo id, varius tellus. Pellentesque lacus urna, varius sed lorem quis, sagittis consectetur turpis.</p>\r
+                        </div>\r
+                    </section>\r
+                    <hr>\r
+                </div>\r
+                <div class="row">\r
+                    <div id="panel2">\r
+                        <div class="col-md-6">\r
+                            <h2 class="mrgn-tp-0 mrgn-lft-0">Duis tristique erat eget pellentesque vulputate</h2>\r
+                            <p>Nam sed augue nisl. Ut hendrerit lorem eu lectus facilisis, fermentum tincidunt magna aliquam. Mauris vitae pulvinar nisl. Vivamus porta, neque facilisis blandit convallis, nisi est aliquam arcu, eu commodo erat magna quis ante. Proin gravida tempor urna, nec malesuada tellus faucibus et. Curabitur imperdiet in justo ut volutpat. Integer at consequat augue, faucibus porta tortor. Suspendisse potenti. Donec sed efficitur nulla. Donec in nibh at magna varius porta iaculis in justo.</p>\r
+                        </div>\r
+                        <div class="col-md-6">\r
+                            <figure> <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="img-responsive mrgn-tp-lg" alt="" /> </figure>\r
+                        </div>\r
+                    </div>\r
+                </div>\r
+                <hr>\r
+                <div class="row">\r
+                    <div id="panel3">\r
+                        <div class="col-md-6 pull-right">\r
+                            <h2 class="mrgn-tp-0 mrgn-lft-0">Nullam convallis hendrerit erat sed ullamcorper</h2>\r
+                            <p>Sed quis justo ac lectus convallis faucibus. In ac dui fringilla leo tincidunt convallis in id tortor. Nam in condimentum diam. Curabitur nulla odio, tristique ac justo ac, volutpat porttitor mauris. Ut vitae metus blandit, tincidunt purus eget, tristique massa. Duis gravida elit lacinia rhoncus finibus. Sed ac scelerisque ante. Etiam eget venenatis quam. Suspendisse faucibus pulvinar dictum. Phasellus mi urna, maximus at ante sit amet, convallis sollicitudin tellus.</p>\r
+                        </div>\r
+                        <div class="col-md-6">\r
+                            <figure> <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="img-responsive" alt="" /> </figure>\r
+                        </div>\r
+                    </div>\r
+                </div>\r
+                <hr>\r
+                <h2>Related information</h2>\r
+                <h3>News Releases</h3>\r
+                <ul class="list-unstyled lst-spcd">\r
+                    <li>\r
+                        <a href="">Donec vel congue mi. Vestibulum dignissim venenatis sapien non dapibus.</a> <br><small>[Month, Day, Year]</small>\r
+                    </li>\r
+                    <li>\r
+                        <a href="">Suspendisse finibus viverra efficitur. Vestibulum id ante eget sapien fermentum sollicitudin at a lacus.</a> <br><small>[Month, Day, Year]</small>\r
+                    </li>\r
+                    <li>\r
+                        <a href="">Aliquam ut dui sed tortor pretium semper. Fusce mollis ullamcorper efficitur.</a> <br><small>[Month, Day, Year]</small>\r
+                    </li>\r
+                </ul>\r
+                <h3>News Articles</h3>\r
+                <ul class="list-unstyled lst-spcd">\r
+                    <li>\r
+                        <a href="">Suspendisse tempor scelerisque urna, sed porta arcu rhoncus at.</a> <br><small>[Month, Day, Year]</small>\r
+                    </li>\r
+                </ul>\r
+                <div class="pagedetails">\r
+                    <!--#include virtual="/includes/rpt-shr-wdgt8-en.html" -->\r
+                    <dl id="wb-dtmd">\r
+                        <dt>Date modified:&#32;</dt>\r
+                        <dd>\r
+                            <time property="dateModified">YYYY-MM-DD</time>\r
+                        </dd>\r
+                    </dl>\r
+                </div>\r
+            </main>\r
+            <!--#include virtual="/includes/footer8-en.html" -->\r
+            <!--#include virtual="/includes/css-footer8.html" -->\r
+            <!-- slick (netflix slider) -->\r
+            <script src="/campaign-campagne/slick-1.8.0/slick/slick.js" type="text/javascript" charset="utf-8"></script>\r
+            <script type="text/javascript">\r
+                $(document).on('ready', function() {\r
+                    $(".regular").slick({\r
+                        dots: true,\r
+                        infinite: true,\r
+                        slidesToShow: 3,\r
+                        slidesToScroll: 1\r
+                    });\r
+                    $(".center").slick({\r
+                        dots: true,\r
+                        infinite: true,\r
+                        centerMode: true,\r
+                        slidesToShow: 3,\r
+                        slidesToScroll: 1\r
+                    });\r
+                });\r
+        \r
+            </script>\r
+        </body>\r
+        \r
+        </html>\r
+        
+
+- trigger: campaign-canada-fra
+  scope: html
+  mTime: 1613572264842
+  description: A campaign page using the GCweb theme
+  text: |
+        <!DOCTYPE html>\r
+        <html class="no-js" lang="fr" dir="ltr">\r
+        \r
+        <head>\r
+            <meta charset="utf-8">\r
+            <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)\r
+        \t\twet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->\r
+            <title>campaignPageTitle</title>\r
+            <meta content="width=device-width,initial-scale=1" name="viewport">\r
+            <meta name="description" content="campaignPageTitle">\r
+            <meta name="dcterms.title" content="campaignPageTitle" />\r
+            <meta name="dcterms.creator" content="Government of Canada, Fisheries and Oceans Canada" />\r
+            <meta name="dcterms.issued" title="W3CDTF" content="YYYY-MM-DD" />\r
+            <meta name="dcterms.modified" title="W3CDTF" content="YYYY-MM-DD" />\r
+            <meta name="dcterms.subject" title="scheme" content="campaignPageTitle" />\r
+            <meta name="dcterms.language" title="ISO639-2" content="fra" />\r
+            <!--#include virtual="/includes/css-header8.html" -->\r
+            <link rel="stylesheet" type="text/css" href="/campaign-campagne/slick-1.8.0/slick/slick.css">\r
+            <link rel="stylesheet" type="text/css" href="/campaign-campagne/slick-1.8.0/slick/slick-theme.css">\r
+            <script src="/includes/scripts/dfo-mpo-ga.js"></script>\r
+            <script src="https://www.google.com/recaptcha/api.js?hl=fr" async defer></script>\r
+        </head>\r
+        \r
+        <body vocab="https://schema.org/" typeof="WebPage">\r
+            <nav>\r
+                <ul id="wb-tphp">\r
+                    <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a> </li>\r
+                    <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Passer à «&#160;Au sujet du gouvernement&#160;»</a> </li>\r
+                </ul>\r
+            </nav>\r
+            <header>\r
+                <!--#include virtual="/includes/header8-fr.html" -->\r
+                <nav id="wb-bc" property="breadcrumb">\r
+                    <h2>Vous êtes ici :</h2>\r
+                    <div class="container">\r
+                        <ol class="breadcrumb">\r
+                            <li><a href="https://www.canada.ca/fr.html">Canada.ca</a></li>\r
+                            <li><a href="/index-fra.htm">Pêches et Océans Canada</a></li>\r
+                        </ol>\r
+                    </div>\r
+                </nav>\r
+            </header>\r
+        \r
+            <main property="mainContentOfPage" class="container" typeof="WebPageElement">\r
+                <h1 property="name" id="wb-cont">campaignPageTitle</h1>\r
+                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/promos/1170x347-1.png" class="img-responsive cmpgn-img" alt="">\r
+                <br>\r
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>\r
+                <hr>\r
+                <div id="panel0" class="row">\r
+                    <section class="col-md-6">\r
+                        <figure class="wb-mltmd">\r
+                            <video title="videoTitle">\r
+                                <source type="video/youtube" src="https://youtu.be/xxxxxxxxxx" />\r
+                            </video>\r
+                        </figure>\r
+                        <details>\r
+                            <summary>Transcription</summary>\r
+                            <p>Praesent luctus nisi non elit scelerisque ullamcorper. Aliquam malesuada ac leo eget efficitur. Aliquam sed euismod sapien. Vestibulum ullamcorper nisi vitae metus ultrices, at hendrerit sapien blandit. Vestibulum suscipit semper leo, id aliquam diam gravida at. Nullam sed dolor nec nisi ultrices vulputate ac eget erat. Maecenas nec metus fermentum, sodales velit ut, luctus turpis. Nunc sodales et leo eget ultricies. Morbi blandit urna quis leo interdum consequat. Praesent leo turpis, hendrerit sit amet urna eget, aliquam accumsan enim. Proin tincidunt, diam a euismod porttitor, turpis sapien imperdiet felis, eget pellentesque risus turpis sed ipsum. Cras eget porta augue. Aliquam quam urna, ultricies at interdum ac, cursus vitae augue.</p>\r
+                        </details>\r
+                    </section>\r
+                    <section class="col-md-6">\r
+                        <h2 class="mrgn-tp-sm">Nunc id nisi convallis, maximus ex at, vulputate risus</h2>\r
+                        <p>Suspendisse maximus, tellus in fringilla consectetur, risus turpis ultrices erat, sed mattis risus lorem ut metus. Nam a aliquam eros. In libero diam, tristique nec odio eu, consequat finibus dolor. In et varius arcu. Duis lacinia, neque in egestas bibendum, quam neque facilisis sem, at tincidunt odio nisl eleifend odio. Fusce at lectus eros. Ut at quam vitae neque sodales tempus vel sed nunc. Integer dictum tincidunt semper.</p>\r
+                    </section>\r
+                </div>\r
+                <hr>\r
+                <div class="row col-md-12 wb-eqht">\r
+                    <section class="regular slider">\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile1</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile1">\r
+                            </a>\r
+                            <p>Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile2</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile2">\r
+                            </a>\r
+                            <p>Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile3</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile3">\r
+                            </a>\r
+                            <p>Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile4</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile4">\r
+                            </a>\r
+                            <p>Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile5</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile5">\r
+                            </a>\r
+                            <p>Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile6</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile6">\r
+                            </a>\r
+                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras ullamcorper fermentum ullamcorper.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile7</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile7">\r
+                            </a>\r
+                            <p>Donec ante erat, eleifend egestas dapibus dignissim, finibus pellentesque elit.</p>\r
+                        </div>\r
+                        <div class="col-xs-4"> <a href="">\r
+                                <section class="eqht-trgt">\r
+                                    <h2 class="h5 mrgn-tp-0">sliderTile8</h2>\r
+                                </section>\r
+                                <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="img-responsive" alt="sliderTile8">\r
+                            </a>\r
+                            <p>Vivamus in est maximus, sodales justo id, varius tellus. Pellentesque lacus urna, varius sed lorem quis, sagittis consectetur turpis.</p>\r
+                        </div>\r
+                    </section>\r
+                    <hr>\r
+                </div>\r
+                <div class="row">\r
+                    <div id="panel2">\r
+                        <div class="col-md-6">\r
+                            <h2 class="mrgn-tp-0 mrgn-lft-0">Duis tristique erat eget pellentesque vulputate</h2>\r
+                            <p>Nam sed augue nisl. Ut hendrerit lorem eu lectus facilisis, fermentum tincidunt magna aliquam. Mauris vitae pulvinar nisl. Vivamus porta, neque facilisis blandit convallis, nisi est aliquam arcu, eu commodo erat magna quis ante. Proin gravida tempor urna, nec malesuada tellus faucibus et. Curabitur imperdiet in justo ut volutpat. Integer at consequat augue, faucibus porta tortor. Suspendisse potenti. Donec sed efficitur nulla. Donec in nibh at magna varius porta iaculis in justo.</p>\r
+                        </div>\r
+                        <div class="col-md-6">\r
+                            <figure> <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="img-responsive mrgn-tp-lg" alt="" /> </figure>\r
+                        </div>\r
+                    </div>\r
+                </div>\r
+                <hr>\r
+                <div class="row">\r
+                    <div id="panel3">\r
+                        <div class="col-md-6 pull-right">\r
+                            <h2 class="mrgn-tp-0 mrgn-lft-0">Nullam convallis hendrerit erat sed ullamcorper</h2>\r
+                            <p>Sed quis justo ac lectus convallis faucibus. In ac dui fringilla leo tincidunt convallis in id tortor. Nam in condimentum diam. Curabitur nulla odio, tristique ac justo ac, volutpat porttitor mauris. Ut vitae metus blandit, tincidunt purus eget, tristique massa. Duis gravida elit lacinia rhoncus finibus. Sed ac scelerisque ante. Etiam eget venenatis quam. Suspendisse faucibus pulvinar dictum. Phasellus mi urna, maximus at ante sit amet, convallis sollicitudin tellus.</p>\r
+                        </div>\r
+                        <div class="col-md-6">\r
+                            <figure> <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="img-responsive" alt="" /> </figure>\r
+                        </div>\r
+                    </div>\r
+                </div>\r
+                <hr>\r
+                <h2>Renseignements connexes</h2>\r
+                <h3>Communiqués</h3>\r
+                <ul class="list-unstyled lst-spcd">\r
+                    <li>\r
+                        <a href="">Donec vel congue mi. Vestibulum dignissim venenatis sapien non dapibus.</a> <br><small>[Day Month Year]</small>\r
+                    </li>\r
+                    <li>\r
+                        <a href="">Suspendisse finibus viverra efficitur. Vestibulum id ante eget sapien fermentum sollicitudin at a lacus.</a> <br><small>[Day Month Year]</small>\r
+                    </li>\r
+                    <li>\r
+                        <a href="">Aliquam ut dui sed tortor pretium semper. Fusce mollis ullamcorper efficitur.</a> <br><small>[Day Month Year]</small>\r
+                    </li>\r
+                </ul>\r
+                <h3>Articles de presse</h3>\r
+                <ul class="list-unstyled lst-spcd">\r
+                    <li>\r
+                        <a href="">Suspendisse tempor scelerisque urna, sed porta arcu rhoncus at.</a> <br><small>[Day Month Year]</small>\r
+                    </li>\r
+                </ul>\r
+                <div class="pagedetails">\r
+                    <!--#include virtual="/includes/rpt-shr-wdgt8-fr.html" -->\r
+                    <dl id="wb-dtmd">\r
+                        <dt>Date de modification&#160;:&#32;</dt>\r
+                        <dd>\r
+                            <time property="dateModified">YYYY-MM-DD</time>\r
+                        </dd>\r
+                    </dl>\r
+                </div>\r
+            </main>\r
+            <!--#include virtual="/includes/footer8-fr.html" -->\r
+            <!--#include virtual="/includes/css-footer8.html" -->\r
+            <!-- slick (netflix slider) -->\r
+            <script src="/campaign-campagne/slick-1.8.0/slick/slick.js" type="text/javascript" charset="utf-8"></script>\r
+            <script type="text/javascript">\r
+                $(document).on('ready', function() {\r
+                    $(".regular").slick({\r
+                        dots: true,\r
+                        infinite: true,\r
+                        slidesToShow: 3,\r
+                        slidesToScroll: 1\r
+                    });\r
+                    $(".center").slick({\r
+                        dots: true,\r
+                        infinite: true,\r
+                        centerMode: true,\r
+                        slidesToShow: 3,\r
+                        slidesToScroll: 1\r
+                    });\r
+                });\r
+        \r
+            </script>\r
+        </body>\r
+        \r
+        </html>\r
+        
+
+heme/asp/template-footer.asp"-->
+
+- trigger: include
+  description: Creates an ASP server include line
+  scope: html
+  mTime: 1506016903052
+  text: |
+        <!--#include virtual="${1:link}" -->
+
+- trigger: calendar-direct-linking
+  scope: html
+  description: Calendar links to the first link in each event (usually in the event heading).
+  mTime: 1506365934959
+  text: |
+        <div id="calendar"></div>
+            <div class="wb-calevt" data-calevt-src="calendar">
+                <ol>
+                    <li>
+                        <section>
+                            <h4><a href="${1:link}" rel="external">${2:Event name}</a></h4>
+                            <p><time datetime="${3:YYYY-MM-DD}">${4:Month Day, Year}</time></p>
+                            <p>${5:description}</p>
+                        </section>
+                    </li>
+                </ol>
+            </div>
+
+- trigger: calendar-details-linking
+  description: Calendar links to the details of the event. This is used when an event has multiple links.
+  scope: html
+  mTime: 1506366095374
+  text: |
+        <div id="calendar"></div>
+            <div class="wb-calevt evt-anchor" data-calevt-src="calendar">
+                <ol>
+                    <li>
+                        <section>
+                            <h4>${1:Event name}</h4>
+                            <p><time datetime="${2:YYYY-MM-DD}">${3:Month Day, Year}</time></p>
+                            <p>${4:Event Description}</p>
+                            <p>Links:</p>
+                            <ul>
+                                <li><a href="${5:link}" rel="external">${6:Single-Day Event Link 1}</a></li>
+                                <li><a href="${7:link}" rel="external">${8:Single-Day Event Link 2}</a></li>
+                            </ul>
+                        </section>
+                    </li>
+                </ol>
+            </div>
+
+- trigger: calendar-ajax
+  scope: html
+  description: Calendar events are pulled from a remote source.
+  mTime: 1506366251120
+  text: |
+        <div id="cal-ajax"></div>
+            <div class="wb-calevt evt-anchor" data-calevt-src="cal-ajax">
+                <ol data-calevt="${1:AJAX link(s)}"></ol>
+            </div>
+
+- trigger: calendar-filtered
+  description: Calendar filters out events from the list that are not for the current month.
+  scope: html
+  mTime: 1506367159211
+  text: |
+        <div id="calendar"></div>
+            <div class="wb-calevt evt-anchor" data-calevt-src="calendar">
+                <section>
+                    <h4>Events List</h4>
+                    <ol>
+                        <li class="cal-disp-onshow">
+                            <section>
+                                <h5><a href="${1:link}" rel="external">${2:Event name}</a></h5>
+                                <p><time datetime="${3:YYYY-MM-DD}">${4:Month Day, Year}</time></p>
+                            </section>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+
+- trigger: calendar-filtered-item
+  description: A single list item of filtered calendars
+  scope: html
+  mTime: 1506367299579
+  text: |
+        <li class="cal-disp-onshow">
+            <section>
+                <h5><a href="${1:link}" rel="external">${2:Event name}</a></h5>
+                <p><time datetime="${3:YYYY-MM-DD}">${4:Month Day, Year}</time></p>
+            </section>
+        </li>
+
+- trigger: calendar-item
+  description: "A single calendar event, to be added to the list section."
+  scope: html
+  mTime: 1506367125617
+  text: |
+        <li>
+            <section>
+                <h5><a href="${1:link}" rel="external">${2:Event name}</a></h5>
+                <p><time datetime="${3:YYYY-MM-DD}">${4:Month Day, Year}</time></p>
+                <p>${5:description}</p>
+            </section>
+        </li>
+
+- trigger: calendar-full-width
+  scope: html
+  description: "Calendar that fills width of container, with filtering options."
+  mTime: 1506367634620
+  text: |
+        <div id="calendar" class="cal-cnt-fluid"></div>
+            <div class="wb-calevt evt-anchor" data-wb-calevt='{"year": ${1:YYYY}, "month": ${2:M}}' data-calevt-src="calendar">
+                <section>
+                    <h4>Events List</h4>
+                    <ol>
+                        <li>
+                            <section>
+                                <h5><a href="${3:link}" rel="external">${4:Event name}</a></h5>
+                                <p><time datetime="${5:YYYY-MM-DD}">${6:Month Day, Year}</time></p>
+                                <p>${7:description}</p>
+                            </section>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+
+- trigger: panel-list
+  scope: html
+  mTime: 1510333332698
+  description: Creates a panel-primary with a list group in the body.
+  text: |
+        <section class="panel panel-default">
+            <header class="panel-heading">
+                <h3 class="panel-title">${1:Panel Title}</h3>
+            </header>
+            <div class="panel-body">This is a panel</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">First Item</li>
+                <li class="list-group-item">Second Item</li>
+                <li class="list-group-item">Third Item</li>
+            </ul>
+            <footer class="panel-footer">This is a footer</footer>
+        </section>
+
+- trigger: story-telling-panel
+  description: "Story telling panel, optional element of a campaign page"
+  scope: html
+  mTime: 1512154411271
+  text: |
+        <div class="col-md-12 mrgn-bttm-lg">
+            <h2 class=text-center>XXXXXXXXXX</h2>
+            <img src="XXXXXXXXXX" class="img-responsive thumbnail center-block" alt="description" />
+            <p class="text-center">XXXXXXXXXX</p>
+        </div>
+
+- trigger: accordion
+  description: An accordion dropdown (in the WET4 style)
+  scope: html
+  mTime: 1518472868360
+  text: |
+        <div class="accordion">
+            <!-- Accordion section 1 -->
+            <details class="acc-group">
+                <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>${1:Section 1's heading}</summary>
+                <div class="tgl-panel">
+                    <!-- Section 1's content -->
+                    ${2}
+                </div>
+            </details>
+            <!-- Accordion section 2 -->
+            <details class="acc-group">
+                <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>${3:Section 2's heading}</summary>
+                <div class="tgl-panel">
+                    <!-- Section 2's content -->
+                    ${4}
+                </div>
+            </details>
+            <!-- Accordion section 3 -->
+            <details class="acc-group">
+                <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>${5:Section 3's heading}</summary>
+                <div class="tgl-panel">
+                    <!-- Section 2's content -->
+                    ${6}
+                </div>
+            </details>
+        </div>
+
+- trigger: anglais
+  scope: html
+  description: The french statement that a page is only available in English
+  mTime: 1518705753708
+  text: (en anglais seulement)
+- trigger: sara-profile-eng
+  description: Creates a template SARA species profile (in English)
+  scope: html
+  mTime: 1518802804967
+  text: |
+        <h1 property="name" id="wb-cont">speciesEnglishName</h1>
+                <h2 class="text-muted mrgn-tp-0"><em>speciesLatinName</em></h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="visible-xl visible-lg visible-md">
+                            <table class="table table-responsive">
+                                <caption><abbr title="Species at Risk Act">SARA</abbr> Status</caption>
+                                <tbody>
+                                    <tr>
+                                        <td class="active text-center">No Status
+                                            <br><span class="badge">NS</span></td>
+                                        <td class="info text-center"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr>
+                                            <br><span class="badge">SC</span></td>
+                                        <td class="warning text-center"><abbr title="Likely to become endangered if nothing is done to reverse the factors leading to its extirpation or extinction">Threatened</abbr>
+                                            <br><span class="badge">TH</span></td>
+                                        <td class="danger text-center"><abbr title="Facing imminent extirpation or extinction">Endangered</abbr>
+                                            <br><span class="badge">EN</span></td>
+                                        <td class="bg-primary text-center"><abbr title="No longer exists in the wild in Canada, but exists elsewhere">Extirpated</abbr>
+                                            <br><span class="badge">EX</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="visible-sm visible-xs">
+                            <h4 class="text-center"><abbr title="Species at Risk Act">SARA</abbr> Status</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">No Status <span class="badge">NS</span></li>
+                                <li class="list-group-item list-group-item-info"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr> <span class="badge">SC</span></li>
+                                <li class="list-group-item list-group-item-warning"><abbr title="Likely to become endangered if nothing is done to reverse the factors leading to its extirpation or extinction">Threatened</abbr> <span class="badge">TH</span></li>
+                                <li class="list-group-item list-group-item-danger"><abbr title="Facing imminent extirpation or extinction">Endangered</abbr> <span class="badge">EN</span></li>
+                                <li class="list-group-item list-group-item active"><abbr title="No longer exists in the wild in Canada, but exists elsewhere">Extirpated</abbr> <span class="badge">EX</span></li>
+                            </ul>
+                        </div>
+                        <div class="visible-xl visible-lg visible-md">
+                            <table class="table table-responsive">
+                                <caption><abbr title="Committee on the Status of Endangered Wildlife in Canada">COSEWIC</abbr> Status</caption>
+                                <tbody>
+                                    <tr>
+                                        <td class="active text-center">Not at Risk
+                                            <br><span class="badge">NR</span></td>
+                                        <td class="info text-center"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr>
+                                            <br><span class="badge">SC</span></td>
+                                        <td class="warning text-center"><abbr title="Likely to become endangered if nothing is done to reverse the factors leading to its extirpation or extinction">Threatened</abbr>
+                                            <br><span class="badge">TH</span></td>
+                                        <td class="danger text-center"><abbr title="Facing imminent extirpation or extinction">Endangered</abbr>
+                                            <br><span class="badge">EN</span></td>
+                                        <td class="bg-primary text-center"><abbr title="No longer exists in the wild in Canada, but exists elsewhere">Extirpated</abbr>
+                                            <br><span class="badge">EX</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="visible-sm visible-xs">
+                            <h4 class="text-center"><abbr title="Committee on the Status of Endangered Wildlife in Canada">COSEWIC</abbr> Status</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">Not at Risk <span class="badge">NR</span></li>
+                                <li class="list-group-item list-group-item-info"><abbr title="May become threatened or endangered because of a combination of biological characteristics and identified threats">Special Concern</abbr> <span class="badge">SC</span></li>
+                                <li class="list-group-item list-group-item-warning"><abbr title="Likely to become endangered if nothing is done to reverse the factors leading to its extirpation or extinction">Threatened</abbr> <span class="badge">TH</span></li>
+                                <li class="list-group-item list-group-item-danger"><abbr title="Facing imminent extirpation or extinction">Endangered</abbr> <span class="badge">EN</span></li>
+                                <li class="list-group-item list-group-item active"><abbr title="No longer exists in the wild in Canada, but exists elsewhere">Extirpated</abbr> <span class="badge">EX</span></li>
+                            </ul>
+                        </div>
+                        <h2 id="description">Description</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                        <h2 id="habitat">Habitat</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                        <h2 id="threats">Threats</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                        <h2 id="information">Further Information</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <section class="panel panel-default">
+                            <header class="panel-heading">
+                                <h3 class="panel-title">speciesEnglishName</h3>
+                            </header>
+                            <div class="panel-body">
+                                <figure class="thumbnail">
+                                    <a href="/species-especes/images/blank.jpg" class="wb-lbx" title="speciesEnglishName"><img src="/species-especes/images/blank.jpg" class="img-responsive" alt="speciesEnglishName"></a>
+                                    <br>
+                                    <figcaption class="caption">
+                                        <p>speciesEnglishName</p>
+                                    </figcaption>
+                                </figure>
+                                <p><strong>Scientific name:</strong> <em>speciesLatinName</em> <br><strong><abbr title="Species at Risk Act">SARA</abbr> Status:</strong> xxxxxx
+                                    <br>
+                                    <strong> <abbr title="Committee on the Status of Endangered Wildlife in Canada">COSEWIC</abbr> Status:</strong> xxxxxx
+                                    <br><strong>Regions:</strong> speciesRegion
+                                </p>
+                            </div>
+                        </section>
+                        <section class="panel panel-default">
+                            <header class="panel-heading">
+                                <h3 class="panel-title">Region map</h3>
+                            </header>
+                            <div class="panel-body">
+                                <figure>
+                                    <img src="/species-especes/images/maps-regions-cartes/bc.gif" class="img-responsive center-block" alt="Region map, speciesRegion" />
+                                    <figcaption class="caption mrgn-tp-sm">
+                                        <p><strong>Regions</strong>: speciesRegion</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section>
+                            <section class="panel panel-default">
+                                <header class="panel-heading">
+                                    <h3 class="panel-title">Did You Know?</h3>
+                                </header>
+                                <div class="panel-body">
+                                    <p></p>
+                                </div>
+                            </section>
+                        </section>
+                        <section>
+                            <section>
+                                <section class="panel panel-default">
+                                    <header class="panel-heading">
+                                        <h3 class="panel-title">Related information</h3>
+                                    </header>
+                                    <div class="panel-body">
+                                        <ul class="list-unstyled lst-spcd">
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+
+- trigger: sara-profile-fra
+  description: Creates a template SARA species profile (in French)
+  scope: html
+  mTime: 1518802815228
+  text: |
+        <h1 property="name" id="wb-cont">speciesFrenchName</h1>
+                <h2 class="text-muted mrgn-tp-0"><em>speciesLatinName</em></h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="visible-xl visible-lg visible-md">
+                            <table class="table table-responsive">
+                                <caption>Statut <abbr title="Loi sur les espèces en péril">LEP</abbr></caption>
+                                <tbody>
+                                    <tr>
+                                        <td class="active text-center">Aucun statut
+                                            <br><span class="badge">AS</span></td>
+                                        <td class="info text-center"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr>
+                                            <br><span class="badge">P</span></td>
+                                        <td class="warning text-center"><abbr title="Pourrait devenir une espèce en voie de disparition si rien n’est fait pour inverser les facteurs menant à sa disparition du pays ou de la planète.">Menacée</abbr>
+                                            <br><span class="badge">M</span></td>
+                                        <td class="danger text-center"><abbr title="Risque de disparaître du pays ou de la planète de façon imminente.">En voie de disparition</abbr>
+                                            <br><span class="badge">EVD</span></td>
+                                        <td class="bg-primary text-center"><abbr title="Ne se trouve plus à l’état sauvage au Canada, mais qui existe ailleurs.">Disparue du pays</abbr>
+                                            <br><span class="badge">DP</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="visible-sm visible-xs">
+                            <h4 class="text-center">Statut <abbr title="Loi sur les espèces en péril">LEP</abbr></h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">Aucun statut <span class="badge">AS</span></li>
+                                <li class="list-group-item list-group-item-info"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr> <span class="badge">P</span></li>
+                                <li class="list-group-item list-group-item-warning"><abbr title="Pourrait devenir une espèce en voie de disparition si rien n’est fait pour inverser les facteurs menant à sa disparition du pays ou de la planète.">Menacée</abbr> <span class="badge">M</span></li>
+                                <li class="list-group-item list-group-item-danger"><abbr title="Risque de disparaître du pays ou de la planète de façon imminente.">En voie de disparition</abbr> <span class="badge">EVD</span></li>
+                                <li class="list-group-item list-group-item active"><abbr title="Ne se trouve plus à l’état sauvage au Canada, mais qui existe ailleurs.">Disparue du pays</abbr> <span class="badge">DP</span></li>
+                            </ul>
+                        </div>
+                        <div class="visible-xl visible-lg visible-md">
+                            <table class="table table-responsive">
+                                <caption>Statut <abbr title="Le Comité sur la situation des espèces en péril au Canada">COSEPAC</abbr></caption>
+                                <tbody>
+                                    <tr>
+                                        <td class="active text-center">Non en péril
+                                            <br><span class="badge">NP</span></td>
+                                        <td class="info text-center"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr>
+                                            <br><span class="badge">P</span></td>
+                                        <td class="warning text-center"><abbr title="Pourrait devenir une espèce en voie de disparition si rien n’est fait pour inverser les facteurs menant à sa disparition du pays ou de la planète.">Menacée</abbr>
+                                            <br><span class="badge">M</span></td>
+                                        <td class="danger text-center"><abbr title="Risque de disparaître du pays ou de la planète de façon imminente.">En voie de disparition</abbr>
+                                            <br><span class="badge">EVD</span></td>
+                                        <td class="bg-primary text-center"><abbr title="Ne se trouve plus à l’état sauvage au Canada, mais qui existe ailleurs.">Disparue du pays</abbr>
+                                            <br><span class="badge">DP</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="visible-sm visible-xs">
+                            <h4 class="text-center">Statut <abbr title="Le Comité sur la situation des espèces en péril au Canada">COSEPAC</abbr></h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">Non en péril <span class="badge">NP</span></li>
+                                <li class="list-group-item list-group-item-info"><abbr title="Pourrait devenir une espèce menacée ou en voie de disparation en raison de l’effet cumulatif de ses caractéristiques biologiques et des menaces qui pèsent sur elle.">Préoccupante</abbr> <span class="badge">P</span></li>
+                                <li class="list-group-item list-group-item-warning"><abbr title="Pourrait devenir une espèce en voie de disparition si rien n’est fait pour inverser les facteurs menant à sa disparition du pays ou de la planète.">Menacée</abbr> <span class="badge">M</span></li>
+                                <li class="list-group-item list-group-item-danger"><abbr title="Risque de disparaître du pays ou de la planète de façon imminente.">En voie de disparition</abbr> <span class="badge">EVD</span></li>
+                                <li class="list-group-item list-group-item active"><abbr title="Ne se trouve plus à l’état sauvage au Canada, mais qui existe ailleurs.">Disparue du pays</abbr> <span class="badge">DP</span></li>
+                            </ul>
+                        </div>
+                        <h2 id="description">Description</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                        <h2 id="habitat">Habitat</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                        <h2 id="menaces">Menaces</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                        <h2 id="supplementaires">Renseignements supplémentaires</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <section class="panel panel-default">
+                            <header class="panel-heading">
+                                <h3 class="panel-title">speciesFrenchName</h3>
+                            </header>
+                            <div class="panel-body">
+                                <figure class="thumbnail">
+                                    <a href="/species-especes/images/blank.jpg" class="wb-lbx" title="speciesFrenchName"><img src="/species-especes/images/blank.jpg" alt="speciesFrenchName" class="img-responsive" /></a>
+                                    <figcaption class="caption">
+                                        <p>speciesFrenchName</p>
+                                    </figcaption>
+                                </figure>
+                                <p><strong>Nom scientifique :</strong> <em>speciesLatinName</em> <br><strong>Statut selon la <abbr title="Loi sur les espèces en péril">LEP</abbr> :</strong> xxxxx<br>
+                                    <strong>Statut selon le <abbr title="Comité sur la situation des espèces en péril au Canada">COSEPAC </abbr>:</strong> xxxxxx<br>
+                                    <strong>Régions :</strong> speciesRegion</p>
+                            </div>
+                        </section>
+                        <section class="panel panel-default">
+                            <header class="panel-heading">
+                                <h3 class="panel-title">Carte de la région</h3>
+                            </header>
+                            <div class="panel-body">
+                                <figure>
+                                    <img src="/species-especes/images/maps-regions-cartes/bc.gif" class="img-responsive center-block" alt="Carte de la région, speciesRegion" />
+                                    <figcaption class="caption">
+                                        <p><strong>Régions</strong> : speciesRegion</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </section>
+                        <section class="panel panel-default">
+                            <header class="panel-heading">
+                                <h3 class="panel-title">Le saviez-vous?</h3>
+                            </header>
+                            <div class="panel-body">
+                                <p></p>
+                            </div>
+                        </section>
+                        <section>
+                            <section class="panel panel-default">
+                                <header class="panel-heading">
+                                    <h3 class="panel-title">Renseignements connexes</h3>
+                                </header>
+                                <div class="panel-body">
+                                    <ul class="list-unstyled lst-spcd">
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+
+- trigger: atsea-template-eng
+  description: Creates a Science At-Sea mission page (in English)
+  scope: html
+  mTime: 1518783977046
+  text: |
+        <div class="row">
+                    <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/promos/1170x347-1.png" class="img-responsive" alt="pageTitle" />
+                    <div class="col-md-12">
+                        <section>
+                            <h1 property="name" id="wb-cont">pageTitle</h1>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <figure class="thumbnail">
+                                        <a href="/science/images/atsea-enmer/map-cartes.jpg" class="wb-lbx" title="Map: pageTitle"><img src="/science/images/atsea-enmer/map-cartes.jpg" class="img-responsive" alt="Map: pageTitle" /></a>
+                                        <figcaption class="caption">
+                                            <p>Map: pageTitle</p>
+                                        </figcaption>
+                                    </figure>
+                                    <details open id="about-mission">
+                                        <summary class="h4 mrgn-tp-0">About the mission</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                    <details id="about-area">
+                                        <summary class="h4 mrgn-tp-0">About the region</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                    <details id="team">
+                                        <summary class="h4 mrgn-tp-0">The team</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                    <details id="research">
+                                        <summary class="h4 mrgn-tp-0">Research tools and techniques</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                </div>
+                                <div class="col-md-4">
+                                    <section class="panel panel-default">
+                                        <header class="panel-heading">
+                                            <h3 class="panel-title">Mission livestream</h3>
+                                        </header>
+                                        <div class="panel-body">
+                                            <img src="/science/images/atsea-enmer/livestream.JPG" class="img-responsive mrgn-bttm-md" alt="Mission livestream" />
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <figure class="thumbnail">
+                                            <a href="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="wb-lbx" title="Vessel Image"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="img-responsive" alt="Vessel Image" /></a>
+                                            <figcaption class="caption">
+                                                <p>Vessel Image</p>
+                                            </figcaption>
+                                        </figure>
+                                    </section>
+                                    <!--#include virtual="/science/inclu/follow-eng.html"-->
+                                    <div class="clearfix"></div>
+                                    <section>
+                                        <h2>Photo gallery</h2>
+                                        <div class="wb-tabs carousel-s1">
+                                            <ul role="tablist">
+                                                <li class="active">
+                                                    <a href="#panel1"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="Tab panel1" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#panel2"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="Tab panel2" /></a>
+                                                </li>
+                                            </ul>
+                                            <div class="tabpanels">
+                                                <div role="tabpanel" id="panel1" class="in fade">
+                                                    <figure>
+                                                        <a href="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="wb-lbx" title="caption"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="panel1" /></a>
+                                                        <figcaption>
+                                                            <p>Click to enlarge.</p>
+                                                        </figcaption>
+                                                    </figure>
+                                                </div>
+                                                <div role="tabpanel" id="panel2" class="out fade">
+                                                    <figure>
+                                                        <a href="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="wb-lbx" title="caption"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="panel2" /></a>
+                                                        <figcaption>
+                                                            <p>Click to enlarge.</p>
+                                                        </figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+- trigger: atsea-template-fra
+  description: Creates Science At-Sea mission page (in French)
+  scope: html
+  mTime: 1518784005375
+  text: |
+        <div class="row">
+                    <img src="http://wet-boew.github.io/themes-dist/GCWeb/img/promos/1170x347-1.png" class="img-responsive" alt="pageTitle" />
+                    <div class="col-md-12">
+                        <section>
+                            <h1 property="name" id="wb-cont">pageTitle</h1>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <figure class="thumbnail">
+                                        <a href="/science/images/atsea-enmer/map-cartes.jpg" class="wb-lbx" title="Map: pageTitle"><img src="/science/images/atsea-enmer/map-cartes.jpg" class="img-responsive" alt="Map: pageTitle" /></a>
+                                        <figcaption class="caption">
+                                            <p>Map: pageTitle</p>
+                                        </figcaption>
+                                    </figure>
+                                    <details open id="about-mission">
+                                        <summary class="h4 mrgn-tp-0">À propos de la mission</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                    <details id="about-region">
+                                        <summary class="h4 mrgn-tp-0">Au sujet de la mer de Beaufort</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                    <details id="team">
+                                        <summary class="h4 mrgn-tp-0">L’équipe</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                    <details id="research">
+                                        <summary class="h4 mrgn-tp-0">Outils et techniques de recherche</summary>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet malesuada urna. Pellentesque condimentum pretium cursus. Praesent magna dolor, tristique vel finibus a, hendrerit quis nisi. Proin nibh dui, condimentum non velit non, convallis cursus lectus. Ut elementum scelerisque augue dignissim vestibulum. Donec a finibus felis, in vestibulum magna. In purus turpis, tempus commodo pharetra at, vulputate id neque. Duis dolor nunc, dictum at leo vitae, accumsan tristique lectus. Quisque consectetur id leo ut euismod. Sed nec commodo diam, non luctus nulla. Nulla euismod consequat rhoncus. Duis mi neque, molestie quis nisl non, bibendum gravida urna.</p>
+                                    </details>
+                                </div>
+                                <div class="col-md-4">
+                                    <section class="panel panel-default">
+                                        <header class="panel-heading">
+                                            <h3 class="panel-title">Mission en direct</h3>
+                                        </header>
+                                        <div class="panel-body">
+                                            <img src="/science/images/atsea-enmer/livestream.JPG" class="img-responsive mrgn-bttm-md" alt="Mission livestream" />
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ex, posuere eu neque a, elementum placerat massa. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <figure class="thumbnail">
+                                            <a href="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="wb-lbx" title="Vessel Image"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="img-responsive" alt="Vessel Image" /></a>
+                                            <figcaption class="caption">
+                                                <p>Vessel Image</p>
+                                            </figcaption>
+                                        </figure>
+                                    </section>
+                                    <!--#include virtual="/science/inclu/follow-fra.html"-->
+                                    <div class="clearfix"></div>
+                                    <section>
+                                        <h2>Galerie de photos</h2>
+                                        <div class="wb-tabs carousel-s1">
+                                            <ul role="tablist">
+                                                <li class="active">
+                                                    <a href="#panel1"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="Tab panel1" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#panel2"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="Tab panel2" /></a>
+                                                </li>
+                                            </ul>
+                                            <div class="tabpanels">
+                                                <div role="tabpanel" id="panel1" class="in fade">
+                                                    <figure>
+                                                        <a href="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="wb-lbx" title="caption"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="panel1" /></a>
+                                                        <figcaption>
+                                                            <p>Cliquez pour agrandir.</p>
+                                                        </figcaption>
+                                                    </figure>
+                                                </div>
+                                                <div role="tabpanel" id="panel2" class="out fade">
+                                                    <figure>
+                                                        <a href="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" class="wb-lbx" title="caption"><img src="http://wet-boew.github.io/themes-dist/GCWeb/img/520x296.png" alt="panel2" /></a>
+                                                        <figcaption>
+                                                            <p>Cliquez pour agrandir.</p>
+                                                        </figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+- trigger: rp-accasp-eng
+  description: A research projects page for ACCASP (in English)
+  scope: html
+  mTime: 1518786872620
+  text: |
+        <h1 property="name" id="wb-cont">${1:Project title}</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="h4">Description</h2>
+                        <div class="col-md-4 pull-right">
+                            <figure class="thumbnail"><a href="http://wet-boew.github.io/themes-dist/GCWeb/img/360x203.png" class="wb-lbx" title="${2:fi
